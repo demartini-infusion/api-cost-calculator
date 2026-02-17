@@ -8,15 +8,10 @@ const MODELS = {
         inputPrice: 0.50, // per 1M tokens
         outputPrice: 3.00, // per 1M tokens
     },
-    'gemini-2.0-flash': {
-        name: 'Gemini 2.0 Flash',
-        inputPrice: 0.10,
-        outputPrice: 0.40,
-    },
-    'gemini-1.5-flash': {
-        name: 'Gemini 1.5 Flash',
-        inputPrice: 0.075,
-        outputPrice: 0.30,
+    'gemini-3.0-pro': {
+        name: 'Gemini 3.0 Pro',
+        inputPrice: 2.00, // per 1M tokens (< 200k context)
+        outputPrice: 12.00, // per 1M tokens (< 200k context)
     }
 };
 
@@ -119,8 +114,8 @@ const CostCalculator = () => {
                                             key={key}
                                             onClick={() => loadPreset(key)}
                                             className={`px-3 py-1 text-xs rounded-full border transition-colors ${params.name === preset.name
-                                                    ? 'bg-primary text-primary-foreground border-primary'
-                                                    : 'bg-transparent text-muted-foreground border-input hover:bg-secondary'
+                                                ? 'bg-primary text-primary-foreground border-primary'
+                                                : 'bg-transparent text-muted-foreground border-input hover:bg-secondary'
                                                 }`}
                                         >
                                             {preset.name}

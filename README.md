@@ -4,9 +4,9 @@ Premium calculator designed to estimate the infrastructure costs of AI agents us
 
 ## Features
 - **Pricing Models**: 
+- **Pricing Models**: 
     - **Gemini 3.0 Flash**: $0.50 input / $3.00 output (per 1M tokens).
-    - **Gemini 2.0 Flash**: $0.10 input / $0.40 output.
-    - **Gemini 1.5 Flash**: $0.075 input / $0.30 output.
+    - **Gemini 3.0 Pro**: $2.00 input / $12.00 output (Standard Tier < 200k context).
 - **Cost Estimation**: Calculates cost per interaction, per lead, and total monthly cost.
 - **Larissa Preset**: Pre-configured scenario for the AI SDR agent (1500 input / 300 output tokens).
 - **Visuals**: Real-time cost updates and breakdown charts.
