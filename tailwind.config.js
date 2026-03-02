@@ -6,6 +6,11 @@ export default {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                heading: ['Poppins', 'sans-serif'],
+                mono: ['"Space Mono"', 'monospace'],
+            },
             colors: {
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
@@ -26,13 +31,14 @@ export default {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
-                chart: {
-                    "1": "hsl(var(--chart-1))",
-                    "2": "hsl(var(--chart-2))",
-                    "3": "hsl(var(--chart-3))",
-                    "4": "hsl(var(--chart-4))",
-                    "5": "hsl(var(--chart-5))",
-                },
+                infusion: {
+                    green: "#00D4AA",
+                    purple: "#2D1B69",
+                    graphite: "#1A1A1A",
+                    silver: "#F5F5F5",
+                    mint: "#7FFFD4",
+                    indigo: "#483D8B",
+                }
             },
         },
     },

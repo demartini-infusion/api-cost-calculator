@@ -2,7 +2,7 @@
     "name": "api-cost-calculator",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://demartini.github.io/api-cost-calculator",
+    "homepage": "https://demartini-infusion.github.io/api-cost-calculator",
     "type": "module",
     "scripts": {
         "dev": "vite",
